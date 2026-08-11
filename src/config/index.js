@@ -10,12 +10,12 @@
 
 // 站点基本信息
 export const siteConfig = {
-  title: "ovoxo.cc",                // 浏览器标签页上显示的标题 
-  author: "天天",                   // 站长名称
-  description: "记录生活碎片、收集灵感糖果的小站，点进来就是朋友啦！",
-  url: "ovoxo.cc",                   // 站点链接 (用户自己的域名)
-  startTime: "2025-04-15",           // 建站时间
-  icp: "-----备案信息-----",       // ICP 备案号
+  title: "zorp.top",                // 浏览器标签页上显示的标题 
+  author: "PatePeng",                   // 站长名称
+  description: "记录生活、总结自己，留存属于自己的数字资产！",
+  url: "zorp.top",                   // 站点链接 (用户自己的域名)
+  startTime: "2026-08-1",           // 建站时间
+ // icp: "-----备案信息-----",       // ICP 备案号；Cloudflare托管无需备案
   
 
 
@@ -59,9 +59,9 @@ export const themeConfig = {
     localCount: 10,                       // 本地背景图片数量，当 type 为 'local' 时生效，随机读取 src/assets/backgrounds/ 目录图片。
 
 // 在线背景 API 地址，当 type 为 'api' 时生效。      
-    // apiURL: "https://img.paulzzh.com/touhou/random",      // 随机二次元
-    apiURL: "https://api.vore.top/api/RandBG",            // 随机二次元
-//  apiURL: "https://api.vore.top/api/Bing",              // 必应每日一图  
+// apiURL: "https://img.paulzzh.com/touhou/random",      // 随机二次元
+//apiURL: "https://api.vore.top/api/RandBG",             // 随机二次元
+  apiURL: "https://v2.xxapi.cn/api/bing",             // 必应每日一图  
   },
 };
 
