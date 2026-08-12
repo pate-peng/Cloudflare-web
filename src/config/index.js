@@ -10,9 +10,9 @@
 
 // 站点基本信息
 export const siteConfig = {
-  title: "zorp.top",                // 浏览器标签页上显示的标题 
+  title: "zorp",                // 浏览器标签页上显示的标题 
   author: "PatePeng",                   // 站长名称
-  description: "记录生活、总结自己，留存属于自己的数字资产！",
+  description: "记忆是一条早已干涸的河流，只在毫无生气的河床中剩下零落的砾石",
   url: "zorp.top",                   // 站点链接 (用户自己的域名)
   startTime: "2026-08-1",           // 建站时间
  // icp: "-----备案信息-----",       // ICP 备案号；Cloudflare托管无需备案
@@ -61,7 +61,7 @@ export const themeConfig = {
 // 在线背景 API 地址，当 type 为 'api' 时生效。      
 // apiURL: "https://img.paulzzh.com/touhou/random",      // 随机二次元
 //apiURL: "https://api.vore.top/api/RandBG",             // 随机二次元
-  apiURL: "https://v2.xxapi.cn/api/bing",             // 必应每日一图  
+  //apiURL: "https://v2.xxapi.cn/api/bing",             // 必应每日一图  
   },
 };
 
@@ -99,13 +99,13 @@ export const socialLinks = [
   { 
     name: "QQ", 
     icon: "ri:qq-fill", 
-    url: "http://wpa.qq.com/msgrd?v=3&uin=3966368520&site=qq&menu=yes", 
+    url: "http://wpa.qq.com/msgrd?v=3&uin=393907968&site=qq&menu=yes", 
     tip: "有什么事吗" 
   },
   { 
     name: "Email", 
     icon: "ri:mail-fill", 
-    url: "mailto:mm@mmovo.com", 
+    url: "mailto:393907968@qq.com", 
     tip: "来封 Email ~" 
   },
   { 
@@ -115,10 +115,10 @@ export const socialLinks = [
     tip: "你懂的 ~" 
   },
   { 
-    name: "Telegram", 
-    icon: "ri:telegram-fill", 
-    url: "https://t.me/TianTianOVOBot", 
-    tip: "你懂的 ~" 
+    name: "Minecraft", 
+    icon: "mdi:minecraft", 
+    url: "https://mc.zorp.top/", 
+    tip: "我的世界 ~" 
   }
 ];
 
@@ -131,12 +131,12 @@ export const socialLinks = [
 export const siteLinks = [
   { 
     name: "博客", 
-    link: "https://blog.ovoxo.cc", 
+    link: "https://blog.zorp.top", 
     icon: "ri:book-2-line" 
   },
   { 
     name: "导航页", 
-    link: "https://nav.ovoxo.cc", 
+    link: "https://www.limestart.cn/", 
     icon: "ri:compass-3-line" 
   },
   { 
@@ -150,13 +150,13 @@ export const siteLinks = [
     icon: "ri:github-line" 
   },
   { 
-    name: "邮箱", 
-    link: "mailto:test@test.com", 
-    icon: "ri:mail-line" 
+    name: "Cloudflare", 
+    link: "https://dash.cloudflare.com/", 
+    icon: "mdi:cloudflare" 
   },
   { 
     name: "书签", 
-    link: "https://book.example.com", 
+    link: "https://www.bookmarkmars.com/", 
     icon: "ri:bookmark-line" 
   }
 ];

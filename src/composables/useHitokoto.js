@@ -3,7 +3,7 @@
 export function useHitokoto() {
   const hitokoto = ref({
     text: '正在获取一言...',
-    from: '天天'
+    from: 'Pite Peng'
   });
 
   // 用于取消未完成的请求
